@@ -1,0 +1,71 @@
+/* Header Container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333; /* Add your preferred background color */
+  color: #fff; /* Add your preferred text color */
+}
+
+/* Logo */
+.logo img {
+  width: 50px; /* Adjust the logo size as needed */
+}
+
+/* Company Name */
+.company-name h1 {
+  text-align: center;
+  margin: 0;
+}
+
+/* User Profile */
+.user-profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Profile Trigger */
+.profile-trigger {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Adjust the spacing between the profile image and text */
+  color: #fff; /* Add your preferred text color */
+}
+
+/* Profile Image */
+.profile-image {
+  width: 40px; /* Adjust the profile image size as needed */
+  height: 40px;
+  border-radius: 50%; /* Make the image circular */
+  background-color: #555; /* Add a background color for the circular container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; /* Adjust the spacing between the image and text */
+}
+
+/* User Data Container */
+.user-data {
+  width: 300px;
+  position: absolute;
+  top: 60px; /* Adjust the distance from the top as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  background-color: #fff; /* Add your preferred background color */
+  border-radius: 10px; /* Add border-radius for a curved appearance */
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  z-index: 1; /* Ensure the container is above other elements */
+}
+
+/* Loading Spinner */
+.user-data p {
+  color: black;
+  margin: 5px 0;
+}
+
+/* Loading Spinner */
+.user-data p.loading {
+  text-align: center;
+}

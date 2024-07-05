@@ -1,0 +1,34 @@
+/* DisplayPage.css */
+.horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 20px; /* Increase the gap between images */
+}
+
+.image-container {
+  flex: 1 0 200px; /* Adjust the width of each image container */
+}
+
+.image {
+  width: 100%; /* Ensure images take the full width of their container */
+  height: 200px; /* Maintain aspect ratio */
+  cursor: auto; /* Add a pointer cursor for better user experience */
+}
+
+.videos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns in the grid */
+  gap: 20px; /* Adjust the gap between videos */
+}
+
+.media-container {
+  width: 100%; /* Videos take the full width of their container */
+  margin: 10px 0; /* Adjust the margin between video containers */
+}
+
+.media {
+  width: 100%; /* Ensure the video takes the full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer; /* Add a pointer cursor for better user experience */
+}

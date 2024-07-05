@@ -1,0 +1,58 @@
+/* CSS for Image Upload */
+.upload-container {
+  margin-top: 20px;
+}
+
+.upload-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.upload-container input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.upload-container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-container button:hover {
+  background-color: #45a049;
+}
+
+/* CSS for Video Upload */
+.video-upload-container {
+  margin-top: 20px;
+}
+
+.video-upload-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.video-upload-container input[type="file"],
+.video-upload-container input[type="text"] {
+  margin-bottom: 10px;
+}
+
+.video-upload-container button {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.video-upload-container button:hover {
+  background-color: #2980b9;
+}
+
+/* Error Message Style */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

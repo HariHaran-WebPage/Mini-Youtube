@@ -1,0 +1,74 @@
+.user-form-container {
+  max-width: 600px;
+  margin-top: 150px;
+  margin-left: 30%;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.form-title {
+  text-align: center;
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.user-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+}
+
+.form-label {
+  flex: 3;
+  min-width: 0;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1em;
+  color: #555;
+}
+
+.form-input {
+  flex: 3;
+  min-width: 0;
+  width: calc(100% - 20px);
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.form-textarea {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: -10px;
+  border-radius: 4px;
+  resize: none;
+  height: 100%; /* Fixed height for the textarea */
+  width: 90%; /* Adjust the width as needed */
+}
+
+.form-button {
+  flex: 1;
+  height: 50px;
+  width: 50%;
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+  margin-top: 100px; /* Center the button */
+  margin-left: -40px;
+}
+
+.form-button:hover {
+  background-color: #2ad755;
+}

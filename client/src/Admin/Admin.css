@@ -1,0 +1,138 @@
+/* Admin Dashboard Container */
+.admin-dashboard {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+.admin-dashboard h1,
+.admin-dashboard h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Buttons Styles */
+.admin-dashboard button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-dashboard button:hover {
+  background-color: #45a049;
+}
+
+/* Users Table Styles */
+.admin-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard th,
+.admin-dashboard td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.admin-dashboard th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.admin-dashboard tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Edit Modal Styles */
+.edit-modal {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-modal label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Create Team Head Form Styles */
+.create-team-head-form {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.create-team-head-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.create-team-head-form input {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-team-head-form button {
+  background-color: #2926ea;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-team-head-form button:hover {
+  background-color: #45a049;
+}
+
+/* Team Heads, Staff Members, Create Users Table Styles */
+.admin-dashboard .users-table {
+  margin-top: 20px;
+}
+
+.admin-dashboard th,
+.admin-dashboard td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.admin-dashboard th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.admin-dashboard tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
